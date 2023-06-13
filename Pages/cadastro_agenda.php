@@ -52,7 +52,7 @@
     
     
     $sql = "insert into agenda (apelido, endereco, bairro, cidade, estado, 
-    telefone, celular, email, dt_cadastro, foto)";
+    telefone, celular, email, dt_cadastro, nome_foto)";
 
     $sql .= "values ('".$apelido."','".$endereco."', '".$bairro."', '".$cidade."','".$estado."',
     '".$telefone."','".$celular."', '".$email."', '".$date."','".$nome_foto."')";
