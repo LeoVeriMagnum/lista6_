@@ -29,8 +29,8 @@ $sql = "update agenda set
     estado = '$estado',
     cidade = '$cidade',
     bairro = '$bairro',
-    endereco = '$endereco'
-    foto = '$nome_foto'
+    endereco = '$endereco',
+    nome_foto = '$nome_foto'
     where id_agenda = $id_agenda";
 
 
